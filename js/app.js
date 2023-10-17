@@ -10,12 +10,11 @@ for (let i = 0; randomNumbers.length < 5; i++) {
 }
 
 
-
-// visualizzare in pagina i 5 numeri casuali
-
-
-
-
+// Crea il Timer una volta generato i 5 numeri
+// Svuota la stringa finito il timer
+var timer = setInterval(function () {
+  document.querySelector(".random-numbers").innerHTML = "";
+}, 30000);
 
 
 
