@@ -13,6 +13,7 @@ body {
   background-color: cornflowerblue;
 }
 
-.random-numbers {
+.random-numbers,
+.result {
   font-size: 40px;
 }
