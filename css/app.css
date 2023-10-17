@@ -12,3 +12,7 @@ body {
   align-items: center;
   background-color: cornflowerblue;
 }
+
+.random-numbers {
+  font-size: 40px;
+}
