@@ -14,7 +14,7 @@ function userGuess() {
   for (let i = 0; i < randomNumbers.length; i++) {
     let userNumber = parseInt(prompt("Inserisci un numero:"));
     numeriUtente.push(userNumber);
-    if (randomNumbers[i] == numeriUtente[i]) {
+    if (randomNumbers.includes(numeriUtente[i])) {
       guessedNumbers++;
     }
   }
